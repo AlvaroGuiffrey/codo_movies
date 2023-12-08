@@ -1,0 +1,33 @@
+.moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+
+}
+
+.buttonContainer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonPage {
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buttonPage:hover {
+    color: white;
+    background-color: blue;
+}
+
+@media (max-width:560px) {
+    .moviesGrid {
+        grid-template-columns: 100%
+    }
+}

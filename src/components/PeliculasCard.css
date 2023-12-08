@@ -1,0 +1,55 @@
+.moviesCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.movieImage {
+    border-radius: 10px;
+    background-color: azure;
+    width: 230px;
+    height: 345px;
+}
+
+.movieImage:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
+}
+
+.movieTitle{
+    font-size: 1.2rem;    
+}
+
+.movieDetalle {
+    font-size: 0.8rem;
+}
+
+.buttonOut {
+    border-radius: 5px;
+    color: red;
+    border-color: red;
+}
+
+.buttonOut:hover {
+    color: white;
+    background-color: red;
+}
+
+.buttonIn {
+    border-radius: 5px;
+    color:green;
+    border-color: green;
+}
+
+.buttonIn:hover {
+    color: white;
+    background-color: green;
+}
+
+@media(max-width:560px) {
+    .movieImage {
+        width: 90%;
+        height: auto;
+    }
+}
