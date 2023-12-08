@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 export const App = () => {
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/codo_movies/">
       <header>
         <Link to="/">
           <h1 className='title'>PELICULAS</h1>
